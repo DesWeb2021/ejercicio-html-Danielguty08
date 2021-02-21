@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#ffd4a8">
+    <div align="right">
+        <h1><a href="index.html">HOME</a></h1>
+    </div>
+    <div>
+        <h1>Encuesta</h1>
+    </div>
+    <form>
+        <label for="seen">¿Alguna vez ha visto anime en su vida?</label>
+        <select name="seen">
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+        </select>
+        <br>
+        <label for="count">¿Entre que cantidad de animes ha visto?</label>
+        <select name="count">
+            <option value="1y5">1-5</option>
+            <option value="6y10">6-10</option>
+            <option value="11y20">11-20</option>
+            <option value="mas20">Más de 20</option>
+        </select>
+        <br>
+        <label for="gener">¿Cuál es su género favorito?</label>
+        <select name="gener">
+            <option value="seinen">Seinen</option>
+            <option value="shojo">Shojo</option>
+            <option value="spokon">Spokon</option>
+            <option value="shonen">Shonen</option>
+            <option value="gore">Gore</option>
+            <option value="romance">Romance</option>
+            <option value="slice-of-life">Slice of life</option>
+            <option value="fantasia">Fantasía</option>
+        </select>
+        <br>
+        <label for="age">Edad</label>
+        <input type="number" name="age" min="12" max="90">
+        <br>
+        <label for="description">Ponga una breve opinión sobre el anime.</label>
+        <br>
+        <textarea name="description"></textarea>
+
+        <br>
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>
